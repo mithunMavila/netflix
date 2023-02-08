@@ -1,0 +1,241 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/862cc171-8df5-418c-886f-2aaf767ae159/2e1414e3-cdae-473f-af07-31f9b74741f6/IN-en-20230130-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 4%;
+    position: relative;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+.logo {
+    width: 10rem;
+    cursor: pointer;
+}
+
+nav button {
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    background-color: #e50914;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px 17px;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+select {
+    background: transparent;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+
+select option {
+    background: #333;
+}
+
+
+
+
+
+
+
+.title-contant{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.title-contant h1{
+    font-size: 4rem;
+}
+
+.title-contant h3{
+    font-size: 1.625rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.title-contant p{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+.email{
+    background: #fff;
+    height: 70px;
+    min-width: 500px;
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.email input{
+    border: 0;
+    outline: 0;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.email button{
+    border: 0;
+    outline: 0;
+    background: #e50914;
+    font-size: 1rem;
+    color: #fff;
+    padding: 15px 30px;
+    
+}
+
+
+.extras {
+    padding: 50px 12%;
+    font-size: 10px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.extras img {
+    width: 100%;
+    margin: 1rem auto;
+    z-index: 2;
+}
+
+.extras div:nth-child(even) {
+    padding-bottom: 8rem;
+}
+
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 8px solid #303030;
+    padding-bottom: 20px;
+}
+
+
+.faq-text {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.faq button {
+    border: none;
+    background: #303030;
+    color: white;
+    width: 60%;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.ans1,
+.ans2,
+.ans3,
+.ans4,
+.ans5,
+.ans6 {
+    background: #303030;
+    color: #fff;
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    display: none;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:659px) {
+    .faq button {
+        width: 80%;
+    }
+
+    .ans1,
+    .ans2,
+    .ans3,
+    .ans4,
+    .ans5,
+    .ans6 {
+        width: 100%;
+    }
+}
+
+
+
+.faq p {
+
+
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.email2 input {
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    height: 4rem;
+    width: 30rem;
+    margin: 0;
+}
+
+.email2 .get-started {
+    border: 0;
+    outline: 0;
+    background: #e50914;
+    font-size: 1rem;
+    color: #fff;
+    padding: 15px 30px;
+    width: 10rem;
+    height: 4rem;
+    margin: 0;
+
+}
+
+
+footer {
+    border-top: 8px solid #303030;
+    padding: 50px 20%;
+    color: #737373;
+}
+
+footer a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+footer a:hover{
+    color: #737373;
+}
